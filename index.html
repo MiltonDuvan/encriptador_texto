@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptacion</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <img class="iconAlura" src="aluraicon.svg" alt="" width="31px" height="48px">
+    </header>
+
+    <main class="secPadre">
+
+
+        <section class="section1">
+
+
+            <div class="divInput">
+                <form action="">
+                    <textarea id="textoInput" class="textoInput" required placeholder="Ingrese texto aqui"></textarea>
+                </form>
+            </div>
+
+            <section>
+                <section class="textSection">
+                    <img class="iconAdvertence" src="advertence.svg" alt="">
+                    <p> solo letras minusculas y sin acentos</p>
+                </section>
+                <section class="btnEncDes">
+                    <input type="button" value="encriptar" class="btnEncriptar" id="btnEncriptar">
+                    <input type="button" value="desencriptar" class="btnDesencriptar" id="btnDesencriptar">
+                </section>
+            </section>
+        </section>
+
+        <section class="section2">
+
+            <article class="articleMensaje">
+                <img id="imgDerecha" name="imgDerecha" class="imgDerecha " src="Muñeco.png" alt="" width="100%"
+                    height="40%">
+                <section class="sectionTextH3">
+                    <h3 id="txtMensaje" class="txtMensaje ">Ningún mensaje fue encontrado</h3>
+                    <div class="divAreaDesea">
+                        <input id="inptextDesenc" class="inptextDesenc" readonly
+                            placeholder="Desea desencriptar texto"></textarea>
+                    </div>
+                </section>
+
+            </article>
+
+            <article>
+                <div>
+                    <p class="textPalabra"> </p>
+                </div>
+                <div class="divcopiar">
+                    <input type="button" value="Copiar" class="btnCopiar">
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+
+    <script src="encriptar.js"></script>
+</body>
+
+</html>
